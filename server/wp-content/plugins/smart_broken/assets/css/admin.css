@@ -1,0 +1,107 @@
+.sblf-dashboard,
+.sblf-broken-links,
+.sblf-scan-history,
+.sblf-settings {
+    margin-top: 20px;
+}
+
+.sblf-dashboard .card,
+.sblf-broken-links .card,
+.sblf-scan-history .card,
+.sblf-settings .card {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sblf-dashboard .card-body h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.sblf-actions {
+    margin-bottom: 20px;
+}
+
+.sblf-actions .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.table .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+}
+
+.text-break {
+    word-break: break-all;
+}
+
+.badge {
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-group-sm > .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.form-check-input:checked {
+    background-color: #0073aa;
+    border-color: #0073aa;
+}
+
+.wp-heading-inline .dashicons {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn-group .btn {
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "smart-broken-link-fixer",
+  "version": "1.0.0",
+  "description": "AI-powered broken link detection and automatic fixing for WordPress",
+  "main": "assets/js/admin.js",
+  "scripts": {
+    "build": "echo 'Build process'",
+    "watch": "echo 'Watch process'",
+    "lint": "eslint assets/js/**/*.js"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "broken-links",
+    "seo",
+    "redirects"
+  ],
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/smart-broken-link-fixer"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/smart-broken-link-fixer/issues"
+  },
+  "homepage": "https://github.com/yourusername/smart-broken-link-fixer#readme"
+}
